@@ -2,7 +2,8 @@
   "domain": "amber_websocket",
   "name": "Amber WebSocket",
   "version": "0.1.0",
-  "documentation": "https://amber.com.au",
+  "documentation": "https://github.com/cabberley/AmberWebSocket",
+  "issue_tracker": "https://github.com/cabberley/AmberWebSocket/issues",
   "requirements": [],
   "codeowners": ["@cabberley"],
   "config_flow": true,
@@ -10,3 +11,6 @@
   "brand": "amberelectric",
   "loggers": ["custom_components.amber_websocket"]
 }
+"ssdp": [],
+"version": "2025.11.1",
+"zeroconf": []
