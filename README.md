@@ -51,7 +51,7 @@ Every message emitted by Amber triggers the `amber_websocket_event` event on the
 
 ```json
 {
-  "site_id": "01GA20DWHV68RDSR7220XWXW22",
+  "site_id": "01XXXXXXXXXXXXXXXXXXXX",
   "payload": { "timestamp": "...", "service": "live-prices", "action": "price-update", "data": { ... } }
 }
 ```
