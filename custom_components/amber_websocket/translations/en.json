@@ -1,0 +1,28 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Amber WebSocket",
+        "description": "Enter your Amber API token and site ID.",
+        "data": {
+          "auth_token": "API token",
+          "site_id": "Site ID"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Amber WebSocket Options",
+        "description": "Toggle debugging and choose which channels to collect.",
+        "data": {
+          "debug_logging": "Enable debug logging",
+          "channel_general": "Collect general channel sensors",
+          "channel_feed_in": "Collect feed-in channel sensors",
+          "channel_controlled_load": "Collect controlled load channel sensors"
+        }
+      }
+    }
+  }
+}
