@@ -1,0 +1,12 @@
+{
+  "domain": "amber_websocket",
+  "name": "Amber WebSocket",
+  "version": "0.1.0",
+  "documentation": "https://amber.com.au",
+  "requirements": [],
+  "codeowners": ["@cabberley"],
+  "config_flow": true,
+  "iot_class": "cloud_push",
+  "brand": "amberelectric",
+  "loggers": ["custom_components.amber_websocket"]
+}
