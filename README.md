@@ -35,8 +35,6 @@ To install this Home Assistant Custom Integration, either Click on the open HACS
 > [!TIP]
 > Don't forget to restart your Home Assistant after adding the integration to your HACS!
 
-
-
 ## Configuration
 
 1. Navigate to *Settings → Devices & Services → Add Integration*.
@@ -44,6 +42,17 @@ To install this Home Assistant Custom Integration, either Click on the open HACS
 3. Enter your Amber API token and Site ID when prompted.
 
 Each config entry opens a persistent WebSocket connection that keeps itself alive with exponential backoff reconnection.
+
+### Config Flow Options
+
+After the entry is created you can open *Configure* to tweak runtime options:
+
+- **Enable debug logging** – flips the integration's logger to DEBUG for troubleshooting.
+- **Collect general channel sensors** – on by default; exposes the standard consumption channel from Amber.
+- **Collect feed-in channel sensors** – on by default; creates the export/feed-in sensor suite (prices are inverted so earnings show as negative costs).
+- **Collect controlled load channel sensors** – off by default; builds the same sensor set for `controlledLoad` messages when Amber provides them.
+
+Toggling any of these immediately reloads the config entry so the matching sensor sets are added or removed without restarting Home Assistant.
 
 ## Fired Event
 
