@@ -9,8 +9,8 @@
   "config_flow": true,
   "iot_class": "cloud_push",
   "brand": "amberelectric",
-  "loggers": ["custom_components.amber_websocket"]
+  "loggers": ["custom_components.amber_websocket"],
+  "ssdp": [],
+  "version": "2025.11.1",
+  "zeroconf": []
 }
-"ssdp": [],
-"version": "2025.11.1",
-"zeroconf": []
