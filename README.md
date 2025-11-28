@@ -64,7 +64,6 @@ The integration creates the following sensors per config entry and updates them 
 
 - `Amber General Price`, `Amber General Spot Price`, `Amber General Renewables`
 - `Amber General Descriptor`, `Amber General Spike Status`
-- `Amber General Tariff Period`, `Amber General Tariff Season`
 - `Amber General Start Time`, `Amber General End Time`, `Amber General NEM Time`
 - `Amber Feed-in Price` (automatically inverted so exports show as negative costs)
 - `Amber Feed-in Descriptor`, `Amber Feed-in Tariff Period`, `Amber Feed-in Tariff Season`
