@@ -5,7 +5,7 @@ DOMAIN = "amber_websocket"
 PLATFORMS = [Platform.SENSOR]
 WS_URL = "wss://api-ws.amber.com.au"
 EVENT_PRICE_UPDATE = "amber_websocket_event"
-ORIGIN_HEADER = "https://app.amber.com.au"
+ORIGIN_HEADER = "https://amber-websocket.home-assistant.local"
 CONF_AUTH_TOKEN = "auth_token"
 CONF_SITE_ID = "site_id"
 CONF_DEBUG_LOGGING = "debug_logging"
@@ -21,3 +21,4 @@ CHANNEL_CONTROLLED_LOAD = "controlledLoad"
 DEFAULT_GENERAL_ENABLED = True
 DEFAULT_FEED_IN_ENABLED = True
 DEFAULT_CONTROLLED_LOAD_ENABLED = False
+
