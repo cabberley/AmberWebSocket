@@ -9,7 +9,7 @@
 </h1>
 
 <p align="center">
-  <href="https://github.com/cabberley/AmberWebSocket/releases"><img src="https://img.shields.io/github/v/release/cabberley/AmberWebSocket?display_name=tag&include_prereleases&sort=semver" alt="Current version">
+  <a href="https://github.com/cabberley/AmberWebSocket/releases"><img src="https://img.shields.io/github/v/release/cabberley/AmberWebSocket?display_name=tag&include_prereleases&sort=semver" alt="Current version"></a>
   <img alt="GitHub" src="https://img.shields.io/github/license/cabberley/AmberWebSocket"> <img alt="GitHub Actions Workflow Status" src="https://img.shields.io/github/actions/workflow/status/cabberley/AmberWebSocket/validate.yaml">
   <img alt="GitHub Issues or Pull Requests" src="https://img.shields.io/github/issues/cabberley/AmberWebSocket"> <img alt="GitHub Downloads (all assets, all releases)" src="https://img.shields.io/github/downloads/cabberley/AmberWebSocket/total">
  <img alt="GitHub User's stars" src="https://img.shields.io/github/stars/cabberley">
