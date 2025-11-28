@@ -1,0 +1,9 @@
+{
+  "name": "Amber WebSocket,
+  "homeassistant": "2025.10.0",
+  "render_readme": true,
+  "hacs": "2.0.1",
+  "render_readme": true,
+  "zip_release": true,
+  "filename": "amber_websocket.zip"
+}
